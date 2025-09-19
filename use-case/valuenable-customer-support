@@ -1,0 +1,27 @@
+# Use Case: Customer Support & Onboarding
+
+## Problem Statement 1: High Customer Support Load & Delays
+
+### Context  
+ValuEnable receives a large volume of repetitive customer queries regarding policy terms, benefit illustrations, eligibility, policy loan marketplace, and the assignment process. Current support systems are heavily manual, leading to long response times and inefficient use of support team resources.
+
+### Problem  
+- Customers experience delays in receiving answers to common queries.  
+- Support teams are overloaded with repetitive tasks, leaving less time for complex or high-value interactions.  
+- Increased wait times reduce customer trust and overall satisfaction.  
+
+### Impact  
+- Lower customer satisfaction and potential increase in policy lapse/dropout rates.  
+- Higher operational costs due to the need for larger support teams.  
+- Risk of reputational damage if customer issues are not resolved quickly.  
+
+### Desired Outcome  
+- AI-powered support system that can handle repetitive queries instantly with high accuracy.  
+- Reduced workload for human support staff, allowing them to focus on complex issues.  
+- Faster response times leading to improved customer satisfaction and retention.  
+
+### Approach  
+- **RAG-powered Chatbot**: Deploy a Retrieval-Augmented Generation (RAG) chatbot trained on policy documents, FAQs, and regulatory data to answer repetitive queries accurately.  
+- **Voice Assistant Integration**: Add multilingual voice support for customers preferring calls or IVR-based interactions.  
+- **Context-Aware Escalation**: Seamless handover from AI to human agents with full chat history and context preserved.  
+- **Continuous Learning Loop**: Collect customer interactions to refine the knowledge base and improve future responses.  
