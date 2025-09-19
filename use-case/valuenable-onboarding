@@ -1,0 +1,29 @@
+## Problem Statement 3: Retention & Renewal Nudges
+
+### Context  
+Life insurance policies often lapse or go unrenewed due to lack of customer awareness, poor engagement, or ineffective reminder systems. ValuEnable’s policyholders face similar challenges, where limited personalized nudges result in missed renewals and reduced long-term retention.
+
+### Problem  
+- Customers are unaware of upcoming renewals or the impact of lapses.  
+- Current reminders are generic (SMS/email), leading to low engagement.  
+- Lack of personalized communication based on customer profile, history, and policy type.  
+- Customers cannot easily visualize the future value or risks of not renewing.  
+
+### Impact  
+- Higher policy lapse rates, directly reducing insurer and platform revenue.  
+- Missed opportunities to retain customers through proactive engagement.  
+- Reduced trust as customers may feel uninformed about policy benefits.  
+- Operational inefficiency due to reactive support interventions post-lapse.  
+
+### Desired Outcome  
+- Proactive, personalized communication that improves renewal rates.  
+- Multi-channel nudges (SMS, voice, video) delivered at the optimal time.  
+- Customers understand the tangible benefits of renewing vs. risks of lapsing.  
+- Increased trust and stronger customer relationships, leading to higher retention.  
+
+### Approach  
+- **Personalized Content Generation Engine**: Use RAG to fetch customer-specific policy details and generate tailored messages across text, voice, and video.  
+- **Smart Outreach Agent**: AI agent analyzes customer profile & past behavior to suggest the best time, channel, and frequency for reminders.  
+- **Generative Visuals**: Create infographics and explainer videos projecting future value of policy benefits or risks of lapse.  
+- **A/B Testing & Optimization**: Continuously test different nudge strategies to maximize renewal conversions.  
+- **Feedback Integration**: Capture customer responses (e.g., clicked link, voice confirmation) to refine future outreach campaigns.  
